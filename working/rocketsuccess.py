@@ -10,7 +10,7 @@ import numpy
 burnrate=numpy.zeros(401) 
 mp=numpy.zeros(401)
 t=numpy.linspace(0,40,401)
-burnrate[:50]=20
+burnrate[:50]=20 #unintuitively, burn rate is 20 until 4.9 seconds, and not 5 as it would seem to appear intuitively
 dt=0.1
 g=9.81
 ve=325.0
